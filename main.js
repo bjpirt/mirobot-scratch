@@ -522,7 +522,7 @@
       });
     }
     blocks = blocks.concat([
-        ['w', 'connect to Mirobot: %s',                'connect', 'local.mirobot.io'],
+        ['w', 'connect to Mikeybot: %s',                'connect', 'local.mirobot.io'],
         ['w', 'move forward by %n mm',                 'forward', 100],
         ['w', 'move back by %n mm',                    'back', 100],
         ['w', 'turn left by %n degrees',               'left', 90],
@@ -545,8 +545,8 @@
   
 
   function reloadExtension() {
-    ScratchExtensions.unregister('Mirobot extension');
-    ScratchExtensions.register('Mirobot extension', descriptor(), ext);
+    ScratchExtensions.unregister('Mikeybot extension');
+    ScratchExtensions.register('Mikeybot extension', descriptor(), ext);
   }
   
   var fetchDevices = function(){
